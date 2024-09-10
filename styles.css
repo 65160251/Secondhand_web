@@ -1,0 +1,52 @@
+body {
+    background-color: #f8f9fa; /* สีพื้นหลังอ่อน */
+    color: #212529; /* สีข้อความหลัก */
+}
+
+header {
+    background-color: #343a40; /* สีพื้นหลังของ header */
+    color: #ffffff; /* สีข้อความใน header */
+}
+
+.card {
+    border: 1px solid #dee2e6; /* สีขอบของการ์ด */
+}
+
+.card-body {
+    background-color: #ffffff; /* สีพื้นหลังของเนื้อหาการ์ด */
+}
+
+.card-img-top {
+    height: 200px; /* กำหนดความสูงของภาพ */
+    object-fit: cover; /* ทำให้ภาพเต็มพื้นที่ */
+}
+
+.btn-outline-light {
+    color: #ffffff; /* สีข้อความของปุ่ม */
+    border-color: #ffffff; /* สีขอบของปุ่ม */
+}
+
+.btn-outline-light:hover {
+    background-color: #ffffff; /* สีพื้นหลังเมื่อวางเมาส์เหนือปุ่ม */
+    color: #212529; /* สีข้อความเมื่อวางเมาส์เหนือปุ่ม */
+}
+
+.btn-primary {
+    background-color: #343a40; /* สีพื้นหลังของปุ่ม */
+    border-color: #343a40; /* สีขอบของปุ่ม */
+}
+
+.btn-primary:hover {
+    background-color: #212529; /* สีพื้นหลังเมื่อวางเมาส์เหนือปุ่ม */
+    border-color: #212529; /* สีขอบเมื่อวางเมาส์เหนือปุ่ม */
+}
+
+.btn-danger {
+    float: right;
+}
+
+/* เพิ่มระยะห่างจากขอบจอให้กับปุ่มในส่วนของตะกร้าสินค้าและประวัติการสั่งซื้อ */
+.header-buttons {
+    padding-right: 15px;
+    padding-left: 15px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form action="../index.php" method="get" class="back-form">
+            <button type="submit" class="back-button">กลับสู่หน้าหลัก</button>
+        </form>    
+
+        <h1>Login</h1>
+        <form action="login.php" method="post" class="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <button type="submit" class="submit-button">Login</button>
+        </form>
+
+        <p class="register-link">ยังไม่มีบัญชี? <a href="register.html">Register here</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form action="../index.php" method="get" class="back-form">
+            <button type="submit" class="back-button">กลับสู่หน้าหลัก</button>
+        </form>    
+
+        <h1>ลงทะเบียน</h1>
+        <form action="register.php" method="post" class="register-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="role">Register as:</label>
+            <select id="role" name="role">
+                <option value="buyer">ผู้ชื้อ</option>
+                <option value="seller">ผู้ขาย</option>
+            </select>
+            
+            <button type="submit" class="submit-button">Register</button>
+        </form>
+
+        <p class="login-link">มีบัญชีอยู่แล้ว? <a href="login.html">Login here</a></p>
+    </div>
+</body>
+</html>

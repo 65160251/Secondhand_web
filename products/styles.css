@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa; /* สีพื้นหลังอ่อน */
+    color: #212529; /* สีข้อความหลัก */
+}
+
+header {
+    background-color: #343a40; /* สีพื้นหลังของ header */
+    color: #ffffff; /* สีข้อความใน header */
+}
+
+.table-dark {
+    background-color: #343a40; /* สีพื้นหลังของตาราง */
+    color: #ffffff; /* สีข้อความในตาราง */
+}
+
+.table-dark th,
+.table-dark td {
+    border-color: #454d55; /* สีขอบของตาราง */
+}
+
+.btn-light {
+    background-color: #f8f9fa; /* สีพื้นหลังของปุ่ม */
+    color: #212529; /* สีข้อความของปุ่ม */
+    border: 1px solid #ced4da; /* ขอบของปุ่ม */
+}
+
+.btn-light:hover {
+    background-color: #e2e6ea; /* สีพื้นหลังเมื่อวางเมาส์เหนือปุ่ม */
+    color: #212529; /* สีข้อความเมื่อวางเมาส์เหนือปุ่ม */
+}
